@@ -10,6 +10,6 @@ public static void main(String[] args) throws InterruptedException {
 	driver.get("https://www.google.com/doodles");
 	Thread.sleep(2000);
 	driver.findElement(By.linkText("Teachers' Day 2022 (December 01)")).click();
-	quit();
+	
 }
 }
